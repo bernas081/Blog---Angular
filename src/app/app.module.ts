@@ -3,10 +3,20 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { BigCardComponent } from './components/big-card/big-card.component';
+import { ScallCardComponent } from './components/scall-card/scall-card.component';
+import { MenuTitleComponent } from './components/menu-title/menu-title.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuBarComponent,
+    BigCardComponent,
+    ScallCardComponent,
+    MenuTitleComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
